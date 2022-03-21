@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #6565a0;
+}
+
+main {
+  background-color: #dadaeb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 1fr;
+  padding: 30px;
+}
+main h2 {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main form {
+  height: 90%;
+  width: 70%;
+}
+main form fieldset {
+  background-color: antiquewhite;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 16.666%;
+  padding: 20px;
+}
+main form fieldset label {
+  font-weight: bold;
+}
+main form fieldset input {
+  border-radius: 8px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1rem;
+}
+main form .box-submit {
+  width: 100%;
+  padding-top: 10px;
+}
+main form .box-submit button {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: violet;
+  border: 1px solid #d148d1;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  height: 120px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
